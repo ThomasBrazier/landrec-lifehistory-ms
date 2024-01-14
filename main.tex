@@ -1,0 +1,163 @@
+%! BibTeX Compiler = biber
+%TC:ignore
+\documentclass{article}
+
+\usepackage{xcolor, colortbl}
+\definecolor{BLUELINK}{HTML}{0645AD}
+\definecolor{DARKBLUELINK}{HTML}{0B0080}
+\definecolor{LIGHTGREY}{gray}{0.9}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks=false]{hyperref}
+% for linking between references, figures, TOC, etc in the pdf document
+\hypersetup{colorlinks,
+    linkcolor=DARKBLUELINK,
+    anchorcolor=DARKBLUELINK,
+    citecolor=DARKBLUELINK,
+    filecolor=DARKBLUELINK,
+    menucolor=DARKBLUELINK,
+    urlcolor=BLUELINK
+} % Color citation links in purple
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{naturalnames}{hyperref}
+
+\usepackage{biorxiv}
+\usepackage[backend=biber,eprint=false,isbn=false,url=false,intitle=true,style=nature,date=year]{biblatex}
+\addbibresource{biblio.bib}
+
+\usepackage{url}
+\usepackage{amssymb,amsfonts,amsmath,amsthm,mathtools}
+\usepackage{lmodern}
+\usepackage{xfrac, nicefrac}
+\usepackage{bm}
+\usepackage{listings, enumerate, enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+%\usepackage{bbold}
+\usepackage{pdfpages}
+\pdfinclusioncopyfonts=1
+\usepackage{lineno}
+\usepackage{tabu}
+\usepackage{hhline}
+\usepackage{multicol,multirow,array}
+\usepackage{etoolbox}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{orcidlink}
+\usepackage{csvsimple-l3}
+
+\addbibresource{biblio.bib}
+
+\newcommand{\NS}[1]{\textcolor{red}{\textbf{\emph{[NS: #1]}}}}
+
+\newcommand{\UniDimArray}[1]{\bm{#1}}
+\newcommand{\der}{\text{d}}
+\newcommand{\e}{\text{e}}
+\newcommand{\Ne}{N_{\text{e}}}
+\newcommand{\proba}{\mathbb{P}}
+\newcommand{\pfix}{\proba_{\text{fix}}}
+\newcommand{\dn}{d_N}
+\newcommand{\ds}{d_S}
+\newcommand{\dnds}{\dn / \ds}
+\newcommand{\Sphy}{S_{0}}
+\newcommand{\SphyDel}{\mathcal{D}_0}
+\newcommand{\SphyNeu}{\mathcal{N}_0}
+\newcommand{\SphyBen}{\mathcal{B}_0}
+\newcommand{\Sphyclass}{x}
+\newcommand{\SphyclassAlt}{y}
+\newcommand{\given}{\mid}
+\newcommand{\Spop}{S}
+\newcommand{\SpopDel}{\mathcal{D}}
+\newcommand{\SpopNeu}{\mathcal{N}}
+\newcommand{\SpopBen}{\mathcal{B}}
+\newcommand{\ProbaPopDel}{\proba [ \SpopDel]}
+\newcommand{\ProbaPopNeu}{\proba [ \SpopNeu ]}
+\newcommand{\ProbaPopBen}{\proba [ \SpopBen ]}
+\newcommand{\AdvMean}{\beta_b}
+\newcommand{\DelMean}{\beta_d}
+\newcommand{\thetaSyn}{\theta_{\text{S}}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\arraystretch}{0.6}
+\linenumbers
+\frenchspacing
+
+\title{Evolution of recombination rates under different mating system}
+
+\author{
+    \large
+    \textbf{Thomas {Brazier}$^{1*}$\orcidlink{0000-0001-5990-7545} and Sylvain {Glémin}$^{1,2}$\orcidlink{0000-0001-7260-4573}}\\
+    \normalsize
+    $^{1}$University of Rennes, CNRS, ECOBIO (Ecosystems, Biodiversity, Evolution), Rennes, France\\
+    $^{2}$Department of Ecology and Genetics, Evolutionary Biology Center and Science for Life Laboratory, Uppsala University, Uppsala, Sweden \\
+    \textbf{Corresponding author:} \texttt{\href{mailto:thomas.brazier@univ-rennes.fr}{thomas.brazier@univ-rennes.fr}} \\
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ARTICLE START
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+
+\newpage
+
+
+\section*{Introduction}
+
+
+
+\section*{Results}
+
+
+
+
+\section*{Acknowledgments}
+
+We wish to thank Laurent Duret, Pierre-Alexandre Gagnaire, Marie Raynaud, Julien Joseph, Nicolas Lartillot and all the other members of the HotRec ANR project, as well as members of the lab and people met outside for the discussion of the results. We used the GENOUEST computing facility for analyses. \textbf{Funding:} Agence Nationale de la Recherche, Grant ANR-19-CE12472 0019 / HotRec. \textbf{Author contributions:} Original idea: S.G.; Data analyses: T.B.; First draft: T.B.; Editing and revisions: T.B., S.G. \textbf{Competing interests:} The authors declare no conflicts of interest. \textbf{Data and materials availability:} Analysis scripts and documentation are available at \textbf{https://github.com/ThomasBrazier/landrec-gradients}. Data produced in this study are available at \textbf{https://osf.io/3aekw/}.
+
+
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% SUPPLEMENTARIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section*{Supplementary figures}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\setcounter{figure}{0}
+
+
+\begin{figure}[!htb]
+  \includegraphics[width=0.9\textwidth]{figures/FigS1.jpeg}
+  \centering
+  \caption{Chromosome recombination maps. (A) Fine-scale recombination maps estimated with LDhat. Mean $\rho$/kb for each inter-SNP interval. (B) Broad-scale recombination maps (cM/Mb, 100 kb windows) estimated from Marey maps in \cite{brazierDiversityDeterminantsRecombination2022b}. The grey ribbon is the 95\% confidence interval estimated by 1,000 bootstraps on SNP markers.
+  }
+  \label{figure:FigS1}
+\end{figure}
+
+
+
+\clearpage
+
+\section*{Supplementary tables}
+
+\renewcommand{\thetable}{S\arabic{table}}
+
+\setcounter{table}{0}
+
+\begin{table}[h!]
+\centering
+\caption{Metadata of the twelve datasets. Dataset name used during analyses, author of the original study, year of the original study, mating system, number of SNP before filtering, number of SNPs after filtering, total number of individuals in the dataset, number of individuals sampled for LDhat analyses, accession of the reference genome, number of chromosomes, number of genes, public database where to access original data (if relevant), direct link to the original data (if relevant), doi of the original study.}
+\label{table:TableS1}
+\end{table}
+
+
+\end{document}
