@@ -1,0 +1,14 @@
+response	Df	Sum.Sq	Mean.Sq	F.value	Pr..F.
+mating_system	2	151.4174	75.7087	5.5177	0.0047
+chrom_size	1	65.8712	65.8712	4.8007	0.0296
+nb_chromosome	1	37.5969	37.5969	2.7401	0.0995
+mating_system:chrom_size	2	52.3468	26.1734	1.9075	0.1512
+Residuals	193	2648.1627	13.7211	NA	NA
+Parameter	coefficients.Estimate	coefficients.Std..Error	coefficients.t.value	coefficients.Pr...t..
+(Intercept)	112.8754	32.3178	3.4927	6e-04
+mating_systemMixed	17.9299	11.9323	1.5026	0.1346
+mating_systemSelfing	15.7132	12.711	1.2362	0.2179
+chrom_size	0.0149	0.0178	0.8411	0.4014
+nb_chromosome	-0.946	0.5213	-1.8147	0.0711
+mating_systemMixed:chrom_size	0.0052	0.0248	0.2078	0.8356
+mating_systemSelfing:chrom_size	0.069	0.0359	1.9229	0.056

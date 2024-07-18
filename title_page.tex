@@ -1,0 +1,91 @@
+%! BibTeX Compiler = biber
+\documentclass{article}
+
+
+\usepackage{xcolor, colortbl}
+\definecolor{BLUELINK}{HTML}{0645AD}
+\definecolor{DARKBLUELINK}{HTML}{0B0080}
+\definecolor{LIGHTGREY}{gray}{0.9}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks=false]{hyperref}
+% for linking between references, figures, TOC, etc in the pdf document
+\hypersetup{colorlinks,
+    linkcolor=DARKBLUELINK,
+    anchorcolor=DARKBLUELINK,
+    citecolor=DARKBLUELINK,
+    filecolor=DARKBLUELINK,
+    menucolor=DARKBLUELINK,
+    urlcolor=BLUELINK
+} % Color citation links in purple
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{naturalnames}{hyperref}
+
+\usepackage{biorxiv}
+\usepackage[backend=biber,eprint=false,isbn=false,url=false,style=authoryear,date=year]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{url}
+\usepackage{amssymb,amsfonts,amsmath,amsthm,mathtools}
+\usepackage{lmodern}
+\usepackage{xfrac, nicefrac}
+\usepackage{bm}
+\usepackage{listings, enumerate, enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+%\usepackage{bbold}
+\usepackage{pdfpages}
+\pdfinclusioncopyfonts=1
+\usepackage{lineno}
+\usepackage{tabu}
+\usepackage{hhline}
+\usepackage{multicol,multirow,array}
+\usepackage{etoolbox}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{orcidlink}
+\usepackage{csvsimple-l3}
+\usepackage{setspace}
+
+\usepackage{graphicx} % Required for inserting images
+\linenumbers
+\doublespacing
+
+
+
+\title{Mating system and the evolution of recombination rates in seed plants}
+
+\author{
+    \large
+    \textbf{Thomas {Brazier}$^{1*}$\orcidlink{0000-0001-5990-7545}, Roman {Stetsenko}$^{2,3,4}$\orcidlink{0000-0001-9196-9615}, Denis {Roze}$^{2,3}$ and Sylvain {Glémin}$^{1,5}$\orcidlink{0000-0001-7260-4573}}\\
+    \normalsize
+    $^{1}$University of Rennes, CNRS, ECOBIO (Ecosystems, Biodiversity, Evolution), Rennes, France\\
+    $^{2}$CNRS, UMR 7144, 29688 Roscoff, France\\
+    $^{3}$Sorbonne Université, Station Biologique de Roscoff, 29688 Roscoff, France\\
+    $^{4}$School of Biological Sciences, The University of Edinburgh, Edinburgh EH9 3FL, United Kingdom\\
+    $^{5}$Department of Ecology and Genetics, Evolutionary Biology Center, Uppsala University, Uppsala, Sweden \\
+    \textbf{Corresponding author:} \texttt{\href{mailto:thomas.brazier@univ-rennes.fr}{thomas.brazier@univ-rennes.fr}} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Acknowledgments}
+
+
+
+We thank Laetitia Carrive for discussions about plant phylogeny.
+
+
+
+\section*{Funding}
+
+Agence Nationale de la Recherche, Grant ANR-19-CE12472 0019 / HotRec. 
+
+
+\section*{Author contributions}
+
+T.B. and S.G. gathered the data and did the analyses. R.S. and D.R. discussed the results. All authors equally wrote the draft and revised the manuscript.
+
+
+\end{document}

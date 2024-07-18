@@ -1,0 +1,14 @@
+response	Df	Sum.Sq	Mean.Sq	F.value	Pr..F.
+mating_system	2	0.0081	0.0041	5.1943	0.0065
+longevity2	2	0.0041	0.0021	2.6526	0.0735
+marker_density	1	0.0036	0.0036	4.5649	0.0341
+n_progeny	1	0	0	0.0018	0.9662
+Residuals	165	0.1289	8e-04	NA	NA
+Parameter	coefficients.Estimate	coefficients.Std..Error	coefficients.t.value	coefficients.Pr...t..
+(Intercept)	-0.102173	0.2252014	-0.4536961	0.6506438
+mating_systemMixed	0.1545391	0.0901631	1.7139949	0.0884075
+mating_systemSelfing	0.1820501	0.1036272	1.7567794	0.0808104
+longevity2Medium	-0.2348091	0.1024374	-2.2922194	0.0231564
+longevity2Short	-0.0798059	0.1069734	-0.7460346	0.4567081
+marker_density	0.0112028	0.0054036	2.0732149	0.0397066
+n_progeny	-3.6e-06	8.47e-05	-0.0424594	0.9661838
