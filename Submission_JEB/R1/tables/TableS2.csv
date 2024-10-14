@@ -1,0 +1,9 @@
+Trait	Predictor	ANOVA.pvalue.lm	AIC.lm	BIC.lm	ANOVA.pvalue.pgls	AIC.pgls	BIC.pgls
+chrom_genmap	Null	0	2194.1	2200.67	0	2186.15	2189.45
+chrom_genmap	Mating system	0.008	2188.4	2201.55	0.005	2179.5	2189.4
+chrom_genmap	Longevity	0.023	2190.4	2203.58	0.01	2180.93	2190.83
+chrom_genmap	Mating system + Longevity	0.151	2188.5	2208.27	0.005	2179.3	2195.79
+res	Null	0	228.2	234.83	0	220.03	223.33
+res	Mating system	0.008	222.5	235.74	0.007	214.23	224.12
+res	Longevity	0.015	223.7	236.88	0.011	214.8	224.7
+res	Mating system + Longevity	0.035	219.7	239.45	0.008	212	228.49

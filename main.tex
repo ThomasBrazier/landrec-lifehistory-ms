@@ -21,7 +21,7 @@
 \PassOptionsToPackage{naturalnames}{hyperref}
 
 \usepackage{biorxiv}
-\usepackage[backend=biber,eprint=false,isbn=false,url=false,style=authoryear,date=year]{biblatex}
+\usepackage[backend=biber,eprint=false,isbn=false,url=false,style=authoryear,date=year,uniquename=false]{biblatex}
 \addbibresource{references.bib}
 
 \usepackage{url}
@@ -54,6 +54,7 @@
 
 \title{Mating system and the evolution of recombination rates in seed plants}
 
+
 \author{
     \large
     \textbf{Thomas {Brazier}$^{1*}$\orcidlink{0000-0001-5990-7545}, Roman {Stetsenko}$^{2,3,4}$\orcidlink{0000-0001-9196-9615}, Denis {Roze}$^{2,3}$ and Sylvain {Glémin}$^{1,5}$\orcidlink{0000-0001-7260-4573}}\\
@@ -80,7 +81,7 @@ Meiotic recombination is a central mechanism underlying sexual reproduction amon
 
 
 
-\textbf{Keywords:} auto-fecundation, longevity, life history traits, genetic map length \\
+\textbf{Keywords:} Plants, Recombination, Life history traits, Selfing, Longevity, Genetic map length\\
 
 
 
@@ -128,7 +129,7 @@ The original dataset with total genetic map length (cM), number of chromosomes a
 \subsection*{Life History Traits}
 
 
- Based on a literature search, we gathered Life History Traits data for every species (Table \ref{table:tableS1}). We first retrieved mating system information, using the coarse classification outcrossing / mixed / selfing, when directly given in the literature. To complete the characterization of the mating system, we collected other reproductive traits: sexual system (andromonoecy, dioecy, gynodioecy, hermaphroditism, monoecy), self incompatibility (SI) status (self-incompatible and self-incompatible) and outcrossing rate, which we used to characterized the mating system: dioecious and SI species were classified as outcrossing; based on outcrossing rate (t) we classified species as outcrossing for t > 0.80, mixed for 0.2 < t < 0.8 and selfing for t < 0.2.We added the life form (herb, liana, shrub, tree, vine) and the life span (annual, biannual, perennial), which are associated with the mating system. In addition it has been proposed that long life-span should select more recombination (\cite{burtMammalianChiasmaFrequencies1987}), although the underlying mechanism is unclear. As some categories were represented by only a few species and some traits were correlated, we defined three categories reflecting longevity: annual species, perennial non-woody species (herbs and vines), and woody perennials (trees, shrubs and lianas). We also included the cultivation status (cultivated, wild), as domestication has been also proposed to select higher recombination rate because of recent and prolonged episodes of directional selection (\cite{ross-ibarraGenomeSizeRecombination2007a,burtMammalianChiasmaFrequencies1987}). Finally, we categorized species as diploid (ploidy level = 2) or polyploid (ploidy level > 2). We added more phylogenetic levels (class, family) and we grouped species in large phylogenetic families (Superasterids, Lilioids + Alismatids Superrosids, Commelinids, Magnoliids, Basal eudicots, Conifers). The full dataset is available as Table \ref{table:tableS1}.
+ Based on a literature search, we gathered Life History Traits data for every species (Table \ref{table:tableS1}). We first retrieved mating system information, using the coarse classification outcrossing / mixed / selfing, when directly given in the literature. To complete the characterization of the mating system, we collected other reproductive traits: sexual system (andromonoecy, dioecy, gynodioecy, hermaphroditism, monoecy), self incompatibility (SI) status (self-incompatible and self-incompatible) and outcrossing rate, which we used to characterized the mating system: dioecious and SI species were classified as outcrossing; based on outcrossing rate (t) we classified species as outcrossing for t $>$ 0.80, mixed for 0.2 $<$ t $<$ 0.8 and selfing for t $<$ 0.2. We added the life form (herb, liana, shrub, tree, vine) and the life span (annual, biannual, perennial), which are associated with the mating system. In addition it has been proposed that long life-span should select more recombination (\cite{burtMammalianChiasmaFrequencies1987}), although the underlying mechanism is unclear. As some categories were represented by only a few species and some traits were correlated, we defined three categories reflecting longevity: annual species, perennial non-woody species (herbs and vines), and woody perennials (trees, shrubs and lianas). We also included the cultivation status (cultivated, wild), as domestication has been also proposed to select higher recombination rate because of recent and prolonged episodes of directional selection (\cite{ross-ibarraGenomeSizeRecombination2007a,burtMammalianChiasmaFrequencies1987}). Finally, we categorized species as diploid (ploidy level = 2) or polyploid (ploidy level $>$ 2). We added more phylogenetic levels (class, family) and we grouped species in large phylogenetic families (Superasterids, Lilioids + Alismatids Superrosids, Commelinids, Magnoliids, Basal eudicots, Conifers). The full dataset is available as Table \ref{table:tableS1}.
 
  
 \subsection*{Phylogenetic signal}
@@ -197,7 +198,7 @@ Residuals                  & 0.1  & 0.032                                       
 \subsection*{Joint effect of the mating system and longevity}
 
 
-Based on ANOVAs and AIC/BIC criterion, we run a step forward model selection for Linear Regression and Phylogenetic Generalized Least Squares (Table \ref{table:tableS2}). For both average chromosome map length and the residuals, the two significant predictors were always the mating system first, then longevity based on ANOVA (p < 0.05) and AIC (lower AIC value). However these effects were weak (Figure \ref{figure:FigS3}, \ref{figure:FigS4}), as the null model was always preferred by the BIC criterion. The effect of other life history traits was weak or null. The more complex models including both mating system and longevity were significantly better than the two models with a single predictor, except for the Linear Model with the average chromosome map length as response variable (df = 2, F = 1.9095, p = 0.151). The effect was stronger when the phylogeny was accounted for (p = 0.035 for ‘lm’ vs. p = 0.008 for ‘pgls’). Overall, we observed a joint effect of the mating system and longevity on proxies of recombination rates (Figure \ref{figure:Fig2}, \ref{figure:FigS5}).
+Based on ANOVAs and AIC/BIC criterion, we run a step forward model selection for Linear Regression and Phylogenetic Generalized Least Squares (Table \ref{table:tableS2}). For both average chromosome map length and the residuals, the two significant predictors were always the mating system first, then longevity based on ANOVA (p $<$ 0.05) and AIC (lower AIC value). However these effects were weak (Figure \ref{figure:FigS3}, \ref{figure:FigS4}), as the null model was always preferred by the BIC criterion. The effect of other life history traits was weak or null. The more complex models including both mating system and longevity were significantly better than the two models with a single predictor, except for the Linear Model with the average chromosome map length as response variable (df = 2, F = 1.9095, p = 0.151). The effect was stronger when the phylogeny was accounted for (p = 0.035 for ‘lm’ vs. p = 0.008 for ‘pgls’). Overall, we observed a joint effect of the mating system and longevity on proxies of recombination rates (Figure \ref{figure:Fig2}, \ref{figure:FigS5}).
 
 
 
@@ -212,7 +213,7 @@ Based on ANOVAs and AIC/BIC criterion, we run a step forward model selection for
 
 \begin{table}[h!]
 \centering{}
-\caption{Model fit and parameter estimates of the best model (PGLS residuals ~ mating system + longevity, $\lambda$ = 0.480, F-statistic = 4.069, df = 195, p = 0.0034, Adjusted R-squared = 0.0581). Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1.}
+\caption{Model fit and parameter estimates of the best model (PGLS residuals = mating system + longevity, $\lambda$ = 0.480, F-statistic = 4.069, df = 195, p = 0.0034, Adjusted R-squared = 0.0581). Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1.}
 \begin{tabular}{llllllll}
 Response                       & Df                 & p                       & Parameter        & Estimate & Std. Error & t       & p      \\ \hline
 \multirow{3}{*}{Mating system} & \multirow{3}{*}{2} & \multirow{3}{*}{0.0078 **} & (Intercept)      & -0.0789  & 0.2145     & -0.368  & 0.7133 \\ \cline{4-8} 
@@ -251,7 +252,7 @@ We investigated if there could be a family-specific effect of the mating system 
 \subsection*{Selection towards extra crossovers in selfing and mixed mating species}
 
 
-We analyzed the dataset slightly differently by considering that there is one mandatory CO per chromosome and then the additional number of CO can increase or not with chromosome size, depending on the strength of CO interference. If CO interference is limited, larger chromosomes should have on average a higher number of COs. On the contrary, if interference is the limiting factor, evolution towards more COs on larger chromosomes should be prevented. We tested this idea by analyzing separately for each mating system the slope of the average chromosome genetic map length as a function of chromosome physical size (Figure \ref{figure:Fig4}). Species with larger chromosomes seemed to have more COs per chromosome in selfing and mixed-mating species but not in outcrossing species. The intercept was similar among the three mating systems (Figure \ref{figure:Fig4}). We tested the significance of this effect with a PGLS model with an interaction term between the chromosome size and the mating system. We also used the number of chromosomes as a covariate, since the Genome Wide Recombination Rate can be increased by increasing the total number of chromosomes (chromosome genetic map length ~ chromosome size*mating system + number of chromosomes, $\lambda$ = 0.468, F-statistic = 3.732, df = 193, p = 0.0016, Adjusted R-squared = 0.0761). There was a trend for the interaction between chromosome size and the mating system (p = 0.056), as well as a trend for the number of chromosomes (p = 0.071; see Table \ref{table:tableS3} for model fit and parameters). While there was a slight trend for the chromosomal genetic map length to increase with chromosome size in selfing species (interaction chromosome size:selfing, coefficient = 0.069, std. error = 0.0359, t = 1.9229, p = 0.056), the number of chromosomes had a negative effect on the chromosomal genetic map length (coefficient = -0.946, std. error = 0.5213, t = -1.8147, p = 0.0711).
+We analyzed the dataset slightly differently by considering that there is one mandatory CO per chromosome and then the additional number of CO can increase or not with chromosome size, depending on the strength of CO interference. If CO interference is limited, larger chromosomes should have on average a higher number of COs. On the contrary, if interference is the limiting factor, evolution towards more COs on larger chromosomes should be prevented. We tested this idea by analyzing separately for each mating system the slope of the average chromosome genetic map length as a function of chromosome physical size (Figure \ref{figure:Fig4}). Species with larger chromosomes seemed to have more COs per chromosome in selfing and mixed-mating species but not in outcrossing species. The intercept was similar among the three mating systems (Figure \ref{figure:Fig4}). We tested the significance of this effect with a PGLS model with an interaction term between the chromosome size and the mating system. We also used the number of chromosomes as a covariate, since the Genome Wide Recombination Rate can be increased by increasing the total number of chromosomes (chromosome genetic map length = chromosome size*mating system + number of chromosomes, $\lambda$ = 0.468, F-statistic = 3.732, df = 193, p = 0.0016, Adjusted R-squared = 0.0761). There was a trend for the interaction between chromosome size and the mating system (p = 0.056), as well as a trend for the number of chromosomes (p = 0.071; see Table \ref{table:tableS3} for model fit and parameters). While there was a slight trend for the chromosomal genetic map length to increase with chromosome size in selfing species (interaction chromosome size:selfing, coefficient = 0.069, std. error = 0.0359, t = 1.9229, p = 0.056), the number of chromosomes had a negative effect on the chromosomal genetic map length (coefficient = -0.946, std. error = 0.5213, t = -1.8147, p = 0.0711).
 
 
 
@@ -334,7 +335,6 @@ Agence Nationale de la Recherche, Grant ANR-19-CE12472 0019 / HotRec.
 
 T.B. and S.G. gathered the data and did the analyses. R.S. and D.R. discussed the results. All authors equally wrote the draft and revised the manuscript.
 
-
 \section*{Competing interests}
 
 The authors declare no conflicts of interest.
@@ -400,7 +400,7 @@ All scripts and data necessary to reproduce this study are available at the OSF 
 \begin{figure}[h!]
   \includegraphics[width=0.9\textwidth]{figures/FigS5.jpeg}
   \centering
-  \caption{The recombination rates depend on the mating system and longevity. The combined effect of the mating system and longevity on the residuals of the regression recombination rate (cM/Mb) ~ chromosome size(Mb).
+  \caption{The recombination rates depend on the mating system and longevity. The combined effect of the mating system and longevity on the residuals of the regression recombination rate (cM/Mb) as a function of chromosome size(Mb).
   }
   \label{figure:FigS5}
 \end{figure}
@@ -428,7 +428,7 @@ All scripts and data necessary to reproduce this study are available at the OSF 
 
 \begin{table}[h!]
 \centering{}
-\caption{Forward model selection steps for the chromosome genetic map length and the residuals of the regression recombination rate ~ chromosome size. The Anova p-value and AIC/BIC values are provided for each 'lm' and 'pgls' model.}
+\caption{Forward model selection steps for the chromosome genetic map length and the residuals of the regression recombination rate as a function of chromosome size. The Anova p-value and AIC/BIC values are provided for each 'lm' and 'pgls' model.}
 \begin{tabular}{cccccccc}
 \end{tabular}
 \label{table:tableS2}
@@ -438,7 +438,7 @@ All scripts and data necessary to reproduce this study are available at the OSF 
 
 \begin{table}[h!]
 \centering{}
-\caption{Model fit and parameters estimates for the 'pgls' model testing the effect of the mating system, chromosome size, the interaction of the mating system and chromosome size, and the number of chromosomes. Chromosome genetic map length ~ mating system*chromosome size + chromosome number.}
+\caption{Model fit and parameters estimates for the 'pgls' model testing the effect of the mating system, chromosome size, the interaction of the mating system and chromosome size, and the number of chromosomes. Chromosome genetic map length = mating system*chromosome size + chromosome number.}
 \begin{tabular}{cccccccc}
 \end{tabular}
 \label{table:tableS3}
@@ -447,7 +447,7 @@ All scripts and data necessary to reproduce this study are available at the OSF 
 
 \begin{table}[h!]
 \centering{}
-\caption{Model fit and parameters estimates for the 'pgls' model testing the effect of marker density and number of progeny. Chromosome genetic map length ~ mating system + longevity + marker density + number of progeny.}
+\caption{Model fit and parameters estimates for the 'pgls' model testing the effect of marker density and number of progeny. Chromosome genetic map length = mating system + longevity + marker density + number of progeny.}
 \begin{tabular}{cccccccc}
 \end{tabular}
 \label{table:tableS4}

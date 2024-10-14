@@ -1,0 +1,110 @@
+Dear Author,
+
+Thank you for submitting your manuscript "Mating system and the evolution of recombination rates in seed plants" (JEB-2024-00184) to the Journal of Evolutionary Biology. Your submission has now been assessed by two reviewers and the guest editor, whose comments are included below. As you will see, both found merit in your manuscript and would ultimately like to see it published in our journal. However, the reviewers have also raised some points that need to be addressed in a minor revision of your paper before we can accept it for publication. 
+
+Please submit your revised paper in an editable format within thirty days of this letter, otherwise it will be considered a new submission. To submit, click on the link 'Manuscripts with Decisions' in your Author Centre. Along with your revision, please upload an "Author response to Reviewers" that describes how you have addressed each of the reviewers’ comments and refers to line numbers in the revised manuscript. Authors should also upload a separate revised manuscript file with tracked changes, for easy reference. Once your paper has been accepted, it will pass through our data editing checks. Completing your Data Availability Statement now (see below), if you have not already done so, will reduce the time to publication of your work post-acceptance.
+
+Formatting
+We have very few formatting requirements (for example, you do not have to reformat your references in any particular style). Please see the Instructions to Authors section on Manuscript Preparation for the few that we do have: https://academic.oup.com/jeb/pages/general-instructions#Manuscript%20prep%20instructions
+
+Data archiving
+The Journal of Evolutionary Biology requires that all raw data underlying our articles be archived in an appropriate public repository. If your article includes data, we ask that you now archive these and complete your Data Availability Statement. The statement should include URLs and accession numbers as appropriate so that we can access the data. Completing your Data Availability Statement now reduces the time to publication of your work. You can review our data and code archiving guidelines on the JEB blog: https://jevbio.net/information/a-guide-to-reproducible-archiving-of-data-and-code/
+JEB authors can use the Dryad repository for free. Simply enter the journal name and your manuscript ID during the data upload process at https://datadryad.org Please use the “Private for Peer Review” option.
+
+Author Contribution Indication
+The contributions of each author to this work must now be indicated when you submit your revised manuscript using CRediT taxonomy (http://credit.niso.org/contributor-roles-defined/). If not provided already you MUST provide this information as part of the revision process. Author Contributions will be published with the accepted article and cannot be edited after article acceptance. Therefore, you must ensure the Author Contribution information you provide is accurate prior to final acceptance.
+
+I hope that you will find our feedback valuable and look forward to receiving your revised manuscript.
+
+Sincerely,
+
+Karine Van Doninck
+Guest Editor
+
+
+___________________________________________________
+
+Reviewer: 1
+
+Comments to the Author
+This manuscript details a meta-analysis of the effect of the mating system on the rate of recombination across a large set of plant species. It builds upon (and complements) a previous database of genetic maps, and analyses it in light of mating system variations, along with life forms and longevity estimates.
+
+Overall, I very much enjoyed reading this piece of work. It represents a very useful addition to the literature, as detailed theoretical predictions were published recently, but such a large-scale analysis was lacking so far. The analysis seems sound to me, and I have no major comments. I list below a series of minor suggestions to improve clarity.
+
+1- the format of references in the text is incorrect at several places (e.g. Lenormand and Sarah P Otto n.d.) should be Lenormand and Otto (2000)), and the names of several authors appear in full at several places in the text.
+
+2- line 97, it is unclear what "among the other traits" refers to. It would be useful to add a brief paragraph to the introduction, saying what these other traits are, and briefly explaining the rational for testing their effect in the present context. This is done a little bit in the discussion and briefly touched upon in the M&M section, but this is not sufficient and should clearly come earlier.
+
+3- line 126 : "we added more phylogenetic levels" : more than what ?
+
+4- line 127 : where does this classification come from ? also please highlight these categories in Fig S1
+
+5- line 134: "Species missing in the tree were assigned randomly to a sister species of the same genus." : I do not understand this sentence. How can a species be missing if it is included in the analysis ? Please rephrase.
+
+6- line 134: The tree was forced to be ultrametric" : explain what this means and why this is important.
+
+7- line 135: "Blomberg's K and Pagel's lambda" : please explain briefly what these statistics measure exactly ("phylogenetic signal" is a bit vague), and how they differ from one another.  
+
+
+8- line 159 : sentence would possibly be better as : "We had 49 self-compatible (SC) and 56 self-incompatible (SI) species"
+
+9- line 166 : "other plant species" : this is vague. Which "other plants" is this referring to ? perhaps this part of the sentence is simply not necessary ?
+
+10- line 185 : "the Ornstein-Uhlenbeck ... evolved under a constrained range" : please briefly explain the rational for this conclusion. How does the OU model encapsulate this signal ?  
+
+11- Figure 2 : could signifiance be displayed on the graph ?
+
+12- line 230-231 : why capilize the first letters of "Genome Wide Recombination Rate" ?
+
+13- line 250: "other life-history traits" : this is too vague : say which traits
+
+14- line 261 : not sure what the mention of "(300cM)"  is related to
+
+15- 278-283 : "this positive correlation was found to be significant across all species..." as I understand, some of the correlations described in the present paper are not general beyond some families (e.g. Fig 3), so it might be worth highlighting this difference.
+
+16- I could not access the scripts and data, since the link to the OSF repository was not functional. It is essential that reviewers be granted access to these resources.  
+
+ 
+
+
+Reviewer: 2
+
+Comments to the Author
+The authors use phylogenetic comparative methods to evaluate determinants of the recombination rate across a wide variety of plant species. Notable findings include an effect of mating system (especially when jointly considering longevity), the superior fit of an evolutionary model that implies stabilizing selection, and a phylogenetic signal. In general, the data are appropriate for addressing the questions, the analytical strategy is solid, and the results interpreted with caveats. The phylogenetic breadth of the study elevates its significance.
+
+Major Comments
+
+Methods
+
+The authors take the reasonable step of classifying species based on outcrossing rate as outcrossing (rate > 0.8), mixed (0.8 > rate > 0.2), and self-fertilizing (rate < 0.2). Still, I wonder how their analyses would be affected by using the outcrossing rate directly. In other words, what would happen if the correlation between recombination rate and outcrossing rate was estimated in a phylogenetic context? If such an analysis is beyond the scope of this study, perhaps the authors could still discuss the effects of discretizing the outcrossing rate on their results and conclusions.
+
+
+Results
+
+The observed value of Pagel’s lambda (near 0.5) is interpreted as a weak phylogenetic signal. Alternatively, I view this value of lambda as a strong phylogenetic signal. I believe it suggests that approximately half of the variance in recombination rate is explained by the phylogeny under model of Brownian motion.
+
+The finding that recombination rate evolves according to an Ornstein-Uhlenbeck process is consistent with stabilizing selection. This inference is based on the higher log-likelihood of the OU model compared to Brownian motion (BM) and early burst (EB) models. Do these models feature different numbers of parameters? If so, would an AIC/BIC framework provide better comparisons between model fits?
+
+Table 1 says that the log-likelihoods of the BM and EB models are identical. This seems strange.
+
+The authors show that the effects of mating system and longevity on recombination rate are unlikely to be driven mostly by marker density. Is the same true for the value of Pagel’s lambda? In other words, does marker density show a phylogenetic signal that might be confounded with a phylogenetic signal for recombination rate?
+
+
+Discussion
+
+“The strength of CO interference itself varies dramatically among species (Sarah P. Otto and Bret A. Payseur 2019) and CO interference is thought to evolve in finite populations as a way to reduce selective interference among loci (Nicholas H Barton and Sarah 306 P Otto 2005; Keightley and Sarah P Otto 2006; Roze and Nick H Barton 2006).” I could be wrong, but I don’t remember Keightley and Otto (2006) or Roze and Barton (2006) specifically addressing the evolution of crossover interference. In addition to the indirect effects of crossover interference in population genetic models, crossover interference might have direct effects on gametogenesis if the spacing of crossovers determines the stability of chromosome pairing during meiosis.
+
+The authors use the slope of the relationship between average chromosome genetic map length and chromosome physical size as a gauge of the contribution of crossover interference to recombination rate evolution. I urge caution here, for a few reasons. First, the relationship between genetic map length and chromosome map length is affected by multiple variables and is not expected to be a good measure of crossover interference. Second, I imagine that the cM lengths of chromosomes for most species in this dataset were estimated using functions that ignore crossover interference. The error in cM chromosome length estimation might depend itself on crossover interference, which varies among species. The authors may be correct that the higher slope of chromosome genetic map length on chromosome physical size in species with mixed or self-fertilization mating systems is related to crossover interference, I think this conclusion should be tempered.
+
+Given the fit of the Ornstein-Uhlenbeck model, it would be helpful to discuss evidence from the literature that plants have upper and lower limits on recombination rate. My understanding is that the evidence is mixed. More generally, why might recombination rate experience stabilizing selection? Does this observation tip the scales toward direct vs. indirect effects of recombination being more important in its evolution?
+
+
+Minor Comments
+
+Line 115: I believe the terms in parentheses should be “self-compatible” and “self-incompatible.”
+
+Line 123: It might be worth noting that the evidence for higher recombination rates in domesticated vs. wild populations is mixed. For example, using MLH1 foci as biomarkers of crossovers, Munoz-Fuentes et al. (2015; Molecular Biology and Evolution) found no sign of elevated recombination rates in domesticated mammals.
+
+The caption for Figure 2 has an “(A)” that seems unnecessary, given that only one panel is shown.
+
+Line 241: I suggest substituting “determine” for “control” in this sentence.
