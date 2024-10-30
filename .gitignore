@@ -4,15 +4,16 @@ __pycache__/
 *$py.class
 osf/
 
-main.aux
-main.bbl
-main.bcf
-main.fdb_latexmk
-main.fls
-main.out
-main.pdf
-main.run.xml
-main.synctex.gz
+*.aux
+*.bbl
+*.bcf
+*.fdb_latexmk
+*.fls
+*.out
+*.blg
+*.pdf
+*.run.xml
+*.synctex.gz
 .~lock.R1_response_to_reviewers.doc#
 
 # C extensions
